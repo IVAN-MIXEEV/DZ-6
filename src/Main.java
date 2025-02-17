@@ -42,14 +42,12 @@ public class Main {
         for (int month1 = 1; month1 <= 12; month1++) {
             total1 = total1 + total1 / 120;
             total1 = total1 + deposit1;
-            System.out.println("Месяц " + month1+ ", сумма накоплений равна " + total1);
+            System.out.println("Месяц " + month1 + ", сумма накоплений равна " + total1);
         }
 //№10
         int multiplication = 2;
-        int sum = 0;
         for (int t = 1; t <= 10; t++) {
-            sum = sum + multiplication;
-            System.out.println("2 * " + t + " = " + sum);
+            System.out.println(multiplication+" * " + t + " = " + multiplication*t);
         }
     }
 }
